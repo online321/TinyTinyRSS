@@ -178,6 +178,7 @@ class RSSUtils {
 					_debug(sprintf("    %.4f (sec)", microtime(true) - $fstarted));
 
 					++$nf;
+					sleep(5);
 				}
 			}
 		}
